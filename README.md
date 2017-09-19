@@ -10,13 +10,13 @@ In this project,I used Python and OpenCV to find the lines and opencv to analyzi
 My pipeline is composed of several algorithems and functions, apply them to an image, and produce an annotated image that shows where a lane on a road would be.
 
 My pipeline implementation is summarized in the following steps:
-    - Applying a color mask by converting RGB to HSV
-    - filter Yellow and white lines from HSV plane
-    - Apply Gaussian blur on the resulted yellow and white mask 
-    - Perform edge detection
-    - Define region of interest to search for lane lines
-    - Using the Hough transform to find line segments
-    - Consolidate and Extrapolate the lane from the line segments and apply to original image
+- Applying a color mask by converting RGB to HSV
+- filter Yellow and white lines from HSV plane
+- Apply Gaussian blur on the resulted yellow and white mask 
+- Perform edge detection
+- Define region of interest to search for lane lines
+- Using the Hough transform to find line segments
+- Consolidate and Extrapolate the lane from the line segments and apply to original image
 
 
 **Step 1:** Getting setup with Python
